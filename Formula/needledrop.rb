@@ -1,8 +1,8 @@
 class Needledrop < Formula
   desc "Good-looking terminal client for YouTube Music"
   homepage "https://github.com/audiarmadhani/needledrop"
-  url "https://github.com/audiarmadhani/needledrop/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "a38c15e5fd9692bcef5c627bfaa601d47fcc5c7b558900267ce6c9587efa690d"
+  url "https://github.com/audiarmadhani/needledrop/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "f83f6ec6caab733655a065459625f7f85a262d762c68973cfe971885a167ffb6"
   license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/audiarmadhani/needledrop.git", branch: "main"
 
