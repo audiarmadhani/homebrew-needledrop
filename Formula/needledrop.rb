@@ -1,8 +1,8 @@
 class Needledrop < Formula
   desc "Good-looking terminal client for YouTube Music"
   homepage "https://github.com/audiarmadhani/needledrop"
-  url "https://github.com/audiarmadhani/needledrop/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "5a9ad66111845c55edb8675052d1f4c8b465465f797ea71021b1e9aea67932ec"
+  url "https://github.com/audiarmadhani/needledrop/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "e2d69dbc820e008c6dcdbe4089f1246d7a6df4b96f32688115538e4785f46d8a"
   license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/audiarmadhani/needledrop.git", branch: "main"
 
@@ -18,7 +18,7 @@ class Needledrop < Formula
   def caveats
     s = <<~EOS
       Sign in with the browser where you use YouTube Music:
-        needledrop login --browser <chrome|arc|brave|edge|firefox|zen|...>
+        needledrop login --browser <chrome|arc|cra|brave|edge|firefox|zen|...>
     EOS
     on_macos do
       s += <<~EOS
